@@ -26,14 +26,7 @@ export default function IndexScreen(props) {
       <Button title='Ir a detalles' onPress={()=>navigation.navigate("details")} >STATUS</Button>
       <Button title='Ir a Informacion' onPress={()=>navigation.navigate("details")}>Informacion</Button>
       <Button title='Ir a Perfil' onPress={()=>navigation.navigate("profile")}>PERFIL</Button>
-      <Input
-        placeholder="Hora de Entrada"
-        placeholderTextColor="white" color=""
-        containerStyle={styles.input}
-        rightIcon={
-          <Icon type="material-community" name="at" iconStyle={styles.icon} />
-        }
-      />
+      
     </View>
   )
   :<LoginScreen/>
