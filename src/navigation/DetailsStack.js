@@ -18,6 +18,7 @@ export default function DetailsStack() {
         component={ProfileScreen} //Vista a enseñar , que no sea el mismo
         options={{title:"Perfil"}}>
         </Stack.Screen>
+
     </Stack.Navigator>
   )
 }

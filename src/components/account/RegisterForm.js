@@ -74,6 +74,7 @@ const navigation = useNavigation();
       <Button title="Registrarse" containerStyle={styles.btnCotainer} buttonStyle={styles.btn}
       onPress={formik.handleSubmit}
       loading={formik.isSubmitting} />
+      
     </View>
   )
 }

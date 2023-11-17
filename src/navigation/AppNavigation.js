@@ -48,6 +48,8 @@ export default function AppNavigation(){
             <Tab.Screen 
             name="profile" component={ProfileStack} options={{title: "Perfil",headerShown:false}}>
             </Tab.Screen>
+
+            
             {/* <Tab.Screen 
             name="profile" component={ProfileScreen} options={{title: "Perfil"}}>
             </Tab.Screen> */}
